@@ -107,21 +107,21 @@ function validation() {
   }
   if (password.search(/[0-9]/) == -1) {
     document.getElementById("password-msg").innerText =
-      "*must use uppercase{A-Z}. lowercase{a-z}, Numbers{0-9}, Symbols{@,- etc.";
+      "*must use {A-Z}, {a-z}, {0-9}, {@,!,#,$ etc.}";
     document.getElementById("password").classList.add("invalid");
 
     return false;
   }
   if (password.search(/[a-z]/) == -1) {
     document.getElementById("password-msg").innerText =
-      "*must use uppercase{A-Z}. lowercase{a-z}, Numbers{0-9}, Symbols{@,- etc.";
+      "*must use {A-Z}, {a-z}, {0-9}, {@,!,#,$ etc.}";
     document.getElementById("password").classList.add("invalid");
 
     return false;
   }
   if (password.search(/[A-Z]/) == -1) {
     document.getElementById("password-msg").innerText =
-      "*must use uppercase{A-Z}. lowercase{a-z}, Numbers{0-9}, Symbols{@,- etc.";
+     "*must use {A-Z}, {a-z}, {0-9}, {@,!,#,$ etc.}";
     document.getElementById("password").classList.add("invalid");
 
     return false;
