@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Sign-up Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left-container">
+        <div class="logo-banner">QUEST</div>
+        <img
+          src="images/nathan-dumlao-xPHmmVKS8lM-unsplash.jpg"
+          alt="Page Image"
+        />
+      </div>
+      <div class="right-container">
+        <form
+          action="#"
+          name="myform"
+          autocomplete="off"
+          onsubmit="return validation()"
+        >
+          <div class="top-container"></div>
+          <div class="mid-container">
+            <div class="form-container">
+              <section>
+                <div class="box">
+                  <label for="first-name">FIRST NAME</label>
+                  <input type="text" id="first-name" name="first-name" />
+                  <small class="message" id="fname-msg"></small>
+                </div>
+                <div class="box">
+                  <label for="last-name">LAST NAME</label>
+                  <input type="text" id="last-name" name="last-name" />
+                  <small class="message" id="lname-msg"></small>
+                </div>
+              </section>
+              <section>
+                <div class="box">
+                  <label for="email">EMAIL</label>
+                  <input type="email" id="email" name="email" />
+                  <small class="message" id="email-msg"></small>
+                </div>
+                <div class="box">
+                  <label for="Phone-no">PHONE NO</label>
+                  <input
+                    type="text"
+                    id="phone-no"
+                    name="phone-no"
+                    maxlength="11"
+                    placeholder="03xxxxxxxxx"
+                    ;
+                  />
+                  <small class="message" id="phone-no-msg"></small>
+                </div>
+              </section>
+              <section>
+                <div class="box">
+                  <label for="password">PASSWORD</label>
+                  <input type="password" id="password" name="password" />
+                  <small class="message" id="password-msg"></small>
+                </div>
+                <div class="box">
+                  <label for="comfirm-password">COMFIRM PASSWORDS</label>
+                  <input
+                    type="password"
+                    id="comfirm-password"
+                    name="comfirm-password"
+                  />
+                  <small class="message" id="comfirm-password-msg"></small>
+                </div>
+              </section>
+            </div>
+          </div>
+          <div class="last-container">
+            <button type="submit">Create Account</button>
+            <p>Already have a account?<a href="">log in</a></p>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    background: rgb(30, 27, 27);
+    font-weight: 600;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+
+.left-container{
+    height: 99vh;
+    width: 28vw;
+}
+.logo-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    position: absolute;
+    height: 15vh;
+    width: inherit;
+    background: #000;
+    color: white;
+    top: 20vh;
+    opacity: 0.5;
+
+}
+.left-container img{
+    height: inherit;
+    width: inherit;
+}
+
+.right-container{
+    height: 100vh;
+    width: 40vw;
+    background-color: #fff;
+}
+
+.top-container{
+    height: 35vh;
+    background-color: #f1f1f1;
+}
+
+.mid-container{
+    height: 30vh;
+    
+}
+
+
+.form-container{
+margin: 3rem 0;
+}
+
+.box{
+    display: inline-grid;
+    margin: 0 2rem;
+}
+section{
+
+    font-size: 0.6rem;
+    margin-top: 2rem;
+}
+input{
+    border: 2px solid #f1dfc8;
+}
+
+
+
+ input:focus{
+    border: 2px solid #0f5eb7;
+    outline: none;
+    box-shadow: 1px 2px 5px 0px #000;
+}
+.invalid{
+    border: 2px solid #e90000;
+    outline: none;
+}
+.valid{
+    border: 2px solid #0ca52d;
+    outline: none;
+}
+
+
+
+
+.last-container{
+    height: calc(35vh - 3rem);
+    background-color: #f1f1f1;
+    padding-top: 2rem;
+    padding-left: 2rem;
+}
+
+.last-container a{
+    text-decoration: none;
+    color: green;
+}
+
+.last-container p{
+    margin-top: 1rem;
+}
+
+.last-container button{
+    width: 12vw;
+    height: 5vh;
+    background-color: #596D48;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.message{
+    color: red;
+    font-size: 0.5rem;
+}
